@@ -1,4 +1,5 @@
-#aspz-lab-2
+Практична робота №2
+
 Троцюк Андрій ТВ-31 
 
 17 варіант
@@ -129,6 +130,7 @@ return 0;
 
 ![image](https://github.com/user-attachments/assets/61fb57ce-a713-43fe-b328-58dc8e2186bf)
 ![image](https://github.com/user-attachments/assets/e7ef3095-ee0e-44aa-9e82-2aa4c67bb452)
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/bd6639f5-93c2-422b-a4f8-8a25fa8ebd22)
+
 
 У циклі я виділяю пам'ять через malloc, але вона не звільняється. Це призводить до постійного збільшення використання пам'яті. Ми можемо відслідковувати цей витік через Valgrind. Це дозволяє побачити, як відсутність звільнення пам'яті призводить до постійного збільшення використання пам'яті у процесі.
